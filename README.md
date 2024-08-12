@@ -81,10 +81,4 @@ To run the tests locally make sure you have [Brownie](https://eth-brownie.readth
 brownie test
 ```
 
-##### Any contributions much apreciated!
-
-##### If this was helpful please consider donating:
-
-`0xA4Ad17ef801Fa4bD44b758E5Ae8B2169f59B666F`
-
 # Happy hacking!
