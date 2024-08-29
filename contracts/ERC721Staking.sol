@@ -158,7 +158,7 @@ contract ERC721Staking is Ownable, ReentrancyGuard, Pausable {
             stakersArray.pop();
         }
     }
-
+ 
     /**
      * @notice Function used to claim the accrued ERC20 Reward Tokens.
      */

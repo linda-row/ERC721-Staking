@@ -19,7 +19,7 @@ contract NFTCollection is ERC721, ERC721Enumerable, Ownable {
         ERC721(_name, _symbol)
     {}
 
-    function mint(address _user, uint256 _amount) public {
+    function mint(address _user, uint256 _amount) public { 
         for (uint256 i; i < _amount; i++) {
             _tokenIdCounter.increment();
             uint256 tokenId = _tokenIdCounter.current();
