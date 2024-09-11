@@ -166,7 +166,7 @@ contract ERC721Staking is Ownable, ReentrancyGuard, Pausable {
         Staker storage staker = stakers[msg.sender];
 
         uint256 rewards = calculateRewards(msg.sender) + staker.unclaimedRewards;
-        require(rewards > 0, "You have no rewards to claim");
+        require(rewards > 0, "You have no rewards to claim"); 
 
         staker.timeOfLastUpdate = block.timestamp;
         staker.unclaimedRewards = 0;

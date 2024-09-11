@@ -26,7 +26,7 @@ contract NFTCollection is ERC721, ERC721Enumerable, Ownable {
             _safeMint(_user, tokenId);
         }
     }
-
+ 
     function tokensOfOwner(address _owner)
         public
         view

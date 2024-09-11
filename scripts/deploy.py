@@ -12,3 +12,4 @@ def main():
     staking = ERC721Staking.deploy(
         nft.address, token.address, {"from": account}, publish_source=True
     )
+ 

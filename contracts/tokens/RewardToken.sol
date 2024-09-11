@@ -15,4 +15,4 @@ contract RewardToken is ERC20 {
     function mint(address _user, uint256 _amount) public {
         _mint(_user, _amount);
     }
-}
+} 
